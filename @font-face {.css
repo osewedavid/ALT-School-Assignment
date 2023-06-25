@@ -63,8 +63,7 @@ a {
     margin: 0 auto;
 }
 
-
-/* Nabar section */
+/*creating Navbar*/
 
 .header {
     height: fit-content;
@@ -158,7 +157,7 @@ a {
 }
 
 
-/* Hero section */
+/*creating hero*/
 
 .hero-section {
     padding-top: 4rem;
@@ -176,7 +175,6 @@ a {
     font-size: 3rem;
     font-family: var(--textBold);
     line-height: 6rem;
-    /* height: 12.5rem; */
     flex-shrink: 0;
     position: relative;
 }
@@ -213,7 +211,6 @@ a {
 .hero-section>.frame {
     width: 79%;
     align-self: flex-end;
-    /* float: right; */
     display: inline-flex;
     padding: 2rem 3.75rem;
     flex-direction: column;
@@ -225,7 +222,6 @@ a {
     background: linear-gradient( to right, rgb(226, 233, 240) 10%, transparent 50%);
     position: relative;
     margin-bottom: 2rem;
-    /* margin-right: auto; */
 }
 
 .hero-section>.frame>.frame-text {
@@ -284,7 +280,7 @@ a {
 }
 
 
-/* Section2 */
+/*Second section*/
 
 .section2 {
     padding: 2rem var(--padding-web);
@@ -315,16 +311,13 @@ a {
 
 .section2>.items>.item {
     display: flex;
-    /* height: 6.25rem; */
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
 }
 
 
-/* .section2 > .items > .item:last-child {
-  width: 100px;
-} */
+/* .section2 > .items > .item:last-child*/
 
 .section2>.items>.item>.text-bold {
     font-size: 1.5rem;
@@ -387,7 +380,6 @@ a {
 #section3>.headers>.text-section {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
     gap: 1rem;
     margin-bottom: 1rem;
 }
@@ -485,7 +477,6 @@ a {
     padding-top: 2rem;
     padding-bottom: 4rem;
     margin: 0 auto;
-    /* max-width: 1440px; */
     display: flex;
     overflow: hidden;
     background: #fff;
@@ -529,8 +520,6 @@ a {
 #section4>.pricing-options {
     display: flex;
     width: 100%;
-    /* flex-wrap: wrap; */
-    /* padding: 2.625rem 11rem 7rem 11rem; */
     background-color: var(--textColorLight);
     align-items: center;
     position: relative;
@@ -689,7 +678,7 @@ a {
 }
 
 
-/* Section 5 */
+/* Creating Section 5 */
 
 .section5 {
     padding: 0 var(--padding-web);
@@ -704,7 +693,6 @@ a {
 
 .section5>.img {
     position: absolute;
-    /* inset: 0; */
 }
 
 .section5>.img1,
@@ -812,7 +800,6 @@ a {
     outline: none;
     color: var(--neutral-white, #fff);
     font-family: var(--textMedium);
-    /* font-weight: 600; */
     line-height: 0.75rem;
 }
 
@@ -827,7 +814,6 @@ a {
 @media (max-width: 530px) {
     .section5>.img,
     .section7>.img {
-        /* display: none; */
         width: 100%;
     }
     .section5>.card>.input-container>.card-row {
@@ -846,7 +832,7 @@ a {
 }
 
 
-/* FAQs */
+/* FAQ section */
 
 #faq-section {
     display: flex;
@@ -896,7 +882,6 @@ a {
 }
 
 #faq-section>div>.faq-container>.faq>.faq-title {
-    /* width: 90%; */
     color: var(--textColorDark);
     font-size: 1.25rem;
     font-family: var(--textMedium);
@@ -957,7 +942,6 @@ a {
 }
 
 .section7>.content>.section7-header {
-    /* width: 50.375rem; */
     color: var(--textColorLight);
     text-align: center;
     font-size: 2.5rem;
@@ -980,8 +964,6 @@ a {
 }
 
 .footer-container {
-    /* padding-top: 2rem;
-  padding-bottom: 4rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1050,12 +1032,7 @@ a {
 }
 
 
-/* .footer-container > .content > .footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 3.5rem;
-} */
+/* .footer-container > .content > .footer-right*/
 
 .footer-container>.content>.footer-right>.footer-right-items>.footer-right-content {
     display: flex;
